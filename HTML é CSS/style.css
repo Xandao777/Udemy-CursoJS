@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .logo a {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    color: #333;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    color: #f90;
+  }
+  
+  main {
+    margin-top: 80px;
+  }
+  
+  .product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product-image {
+    flex: 0 0 40%;
+    margin-right: 50px;
+  }
+  
+  .product-image img {
+    width: 100%;
+  }
+  
+  .product-info {
+    flex: 0 0 50%;
+  }
+  
+  .product-info h1 {
+    font-size: 36px;
+    margin: 0 0 10px 0;
+  }
+  
+  .product-info .product-price {
+    color: #f90;
+    font-size: 24px;
+    margin: 0 0 20px 0;
+  }
+  
+  .product-info .product-description {
+    font-size: 18px;
+    margin: 0 0 20px 0;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .form-group select {
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  .form-group input {
+    font-size: 16px;
+    padding: 10px;
+    width: 60px;
+  }
+  
+  .btn {
+    background-color: #f90;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #333;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .social-media {
+    margin-top: 20px;
+  }
+  
+  .social-media a {
+    color: #fff;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-media i {
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-media a:hover i {
+    color: #f90;
+  }
+  
